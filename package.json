@@ -1,0 +1,28 @@
+{
+  "name": "belogia-api-types",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "repository": "git@github.com:Belogia/belogia-api-types.git",
+  "author": "gzordrai <gzordrai@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "discord-api-types": "^0.37.83"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
