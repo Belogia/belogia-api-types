@@ -8,7 +8,10 @@
     "build": "tsup"
   },
   "keywords": [],
-  "repository": "git@github.com:Belogia/belogia-api-types.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Belogia/belogia-api-types.git"
+  },
   "author": "gzordrai <gzordrai@users.noreply.github.com>",
   "license": "Apache-2.0",
   "files": [
